@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.2.min.js"></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <meta charset="utf-8">
+    <title>Proyecto IG</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+</head>
+
+<body onload="qualeb();">
+<input type="checkbox" id="main-nav-check"/>
+<div id="menu"> 	
+	<label for="main-nav-check" class="toggle" onclick="" title="Close">&times;</label>
+	<ul>
+	    <li><a href="http://www.morticella.com/">Edit</a> <label for="fof" class="toggle-sub" onclick="">&#9658;</label>
+	    	<input type="checkbox" id="fof" class="sub-nav-check"/>
+                <ul id="fof-sub" class="sub-nav">
+		    <li class="sub-heading">Options<label for="fof" class="toggle" onclick="" title="Back">&#9668;</label></li>
+		    <li><a id="link" href="#" onclick="salva('yourfile.js', principale, 'text/plain');">Download</a></li>
+		    <li><a href="#">Save</a></li>
+		    <li><a href="#">Save As</a></li>
+		    <li class="fly-left"><a href="#">Language</a> <label for="fof-portfolio" class="toggle-sub" onclick="">&#9658;</label>
+			<input type="checkbox" id="fof-portfolio" class="sub-nav-check"/>
+	                <ul id="fof-portfolio-sub" class="sub-nav">
+			    <li class="sub-heading">Language <label for="fof-portfolio" class="toggle" onclick="" title="Back">&#9668;</label></li>
+			    <li><a href="#" onclick="select(0); colori();">JavaScript</a><!--  <label for="fof-portfolio-graphics" class="toggle-sub" onclick="">&#9658;</label>
+				<input type="checkbox" id="fof-portfolio-graphics" class="sub-nav-check"/>	
+	                	<ul id="fof-portfolio-graphics-sub" class="sub-nav">
+				    <li class="sub-heading">Javascript <label for="fof-portfolio-graphics" class="toggle" onclick="" title="Back">&#9668;</label></li>
+				    <li><a href="#" onclick="selectjs(); colori();">Javascript </a></li>
+				    <li><a href="#">Jquery</a></li>
+				    <li><a href="#">AJAX</a></li> 
+				    <li><a href="#">JS</a></li> 
+				 
+				</ul> -->
+			    </li>
+			    <li><a href="#" onclick="select(1); colori();">PHP</a></li>
+			    <li><a href="#" onclick="select(2); colori();">HTML</a></li>
+			</ul>
+		    </li>
+		</ul>
+	    </li>
+	
+	    <li><a href="#">Support</a> <label for="fast-apps" class="toggle-sub" onclick="">&#9658;</label>
+		<input type="checkbox" id="fast-apps" class="sub-nav-check"/>
+                <ul id="fast-apps-sub" class="sub-nav">
+		    <li class="sub-heading">Support <label for="fast-apps" class="toggle" onclick="" title="Back">&#9668;</label></li>
+		    <li><a href="#">Community</a></li>
+		    <li><a href="#">Hire a PRO</a></li>
+		</ul>
+	    </li>
+	    <li><a href="#">Hire Me</a></li>
+	    <li><a href="#">Login</a></li>
+	</ul>
+</div>
+   <div id="header">
+		<a href="#"><!--<img src="" style="position:absolute; top:0.5em; left:1em; width:3em; height:3em; border:0" alt="Home" title="Home"/>--></a>
+		<span style="position:absolute; top:1.175em; left:5em; color:#fff">Squidojo V0.0</span>
+		<label for="main-nav-check" class="toggle" onclick="" title="Menu">&#x2261;</label>
+	</div>
+    <div id="contenitore">
+<!-- acapo(event);  -->
+       <div contenteditable="true" id="principale" onfocus="cancella();" onkeyup="colori();" >Welcome in Squidojo v0.0</div> 
+<!-- <textarea id="principale" onkeyup="colori(event);"></textarea> -->
+        <div id="controllo"  ><!-- div --></div><div id="colonne"><!-- div --></div>
+    </div>
+    <!--<div id="prova"><a href="#" onclick="salva();" id="link">salva</a></div>-->
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
+    
+    <script src="js/script.js"></script>
+    <script src="js/menu.js"></script>   
+</body>
+</html>
+
+
+
+

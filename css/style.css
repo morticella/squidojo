@@ -1,0 +1,70 @@
+body,p {margin: 0; }
+.tab-enabled {white-space: pre-wrap; -o-tab-size: 4; -moz-tab-size: 4; tab-size: 4;}
+#principale {border:none; width:95%; min-height:20px; right:0; top:65px; opacity: 0.2; position:absolute; color: #000; cursor:text; font-size: 14px; pointer-events:visible; line-height: 20px;/*display: inline-block;*/font-weight:800; white-space: pre-wrap;}
+#contenitore {width:100%; /*min-height:100%;*/ position:absolute; left:0; top:0px; }
+#controllo {right:0; top:65px;  width:95%; min-height:20px; position:absolute; z-index:-1; font-size: 14px; line-height: 20px; /*display: inline-block;*/font-weight:800;white-space: pre-wrap; }
+#colonne{left:0; top:65px;  width:4%; min-height:20px; position:absolute; font-size: 14px; line-height: 20px;  font-weight: 800; color:#e1e1e1; text-align: right;}
+.reservada0zz { color:#ff0000; }
+.reservada1zz { color:#8900a2; }
+.reservada2zz { color:green; }
+.parentesi0 { color:blue; }
+.parentesi1 { color:green; }
+.parentesi2 { color:red; }
+.stringhe0 { color:green; }
+.stringhe1 { color:red; }
+.stringhe2 { color:blue; }
+.commento{color:#e1e1e1;}
+.commento2{color:#e1e1e1;}
+.attributi{color:orange}
+#prova {bottom:0; position:absolute; z-index: 3}
+.animationzzz {
+    /*color:#ff0000;*/
+    animation:cssAnimation 0.2s 1 ease-in;
+-webkit-animation: cssAnimation 0.2s 1 ease-in;
+-moz-animation: cssAnimation 0.2s 1 ease-in;
+-o-animation: cssAnimation 0.2s 1 ease-in;
+}
+@keyframes cssAnimation {
+from { -o-transform: rotate(0deg) scale(0.694) skew(0deg) translate(0px); }
+to { -o-transform: rotate(0deg) scale(1.200) skew(0deg) translate(0px); }
+}
+@-webkit-keyframes cssAnimation {
+from { -webkit-transform: rotate(0deg) scale(0.694) skew(0deg) translate(0px); }
+to { -webkit-transform: rotate(0deg) scale(1.200) skew(0deg) translate(0px); }
+}
+@-moz-keyframes cssAnimation {
+from { -moz-transform: rotate(0deg) scale(0.694) skew(0deg) translate(0px); }
+to { -moz-transform: rotate(0deg) scale(1.200) skew(0deg) translate(0px); }
+}
+@-o-keyframes cssAnimation {
+from { -o-transform: rotate(0deg) scale(0.694) skew(0deg) translate(0px); }
+to { -o-transform: rotate(0deg) scale(1.200) skew(0deg) translate(0px); }
+}
+[contenteditable=true]:empty:before {
+  content: attr(placeholder);
+    opacity: 1;
+  display: block; /* For Firefox */
+}
+.reservada1 {
+    color:#ffff00;
+-webkit-animation: cssAnimation 0.2s 1 ease-in;
+-moz-animation: cssAnimation 0.2s 1 ease-in;
+-o-animation: cssAnimation 0.2s 1 ease-in;
+}
+@-webkit-keyframes cssAnimation {
+from { -webkit-transform: rotate(0deg) scale(0.850) skew(0deg) translate(0px); }
+to { -webkit-transform: rotate(0deg) scale(1.200) skew(0deg) translate(0px); }
+}
+@-moz-keyframes cssAnimation {
+from { -moz-transform: rotate(0deg) scale(0.850) skew(0deg) translate(0px); }
+to { -moz-transform: rotate(0deg) scale(1.200) skew(0deg) translate(0px); }
+}
+@-o-keyframes cssAnimation {
+from { -o-transform: rotate(0deg) scale(0.850) skew(0deg) translate(0px); }
+to { -o-transform: rotate(0deg) scale(1.200) skew(0deg) translate(0px); }
+}
+[contenteditable=true]:empty:before {
+  content: attr(placeholder);
+    opacity: 1;
+  display: block; /* For Firefox */
+}
